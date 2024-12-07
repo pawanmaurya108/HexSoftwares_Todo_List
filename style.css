@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ccc;
+  font-family: 'Poppins', sans-serif;
+}
+
+#home{
+  /* border: 1px solid black; */
+  padding: 20px 0;
+}
+
+.heading{
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.container{
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 0 20px;
+ margin-top: 1.25rem;
+}
+
+.input-container{
+  /* border: 1px solid black; */
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  
+}
+
+.input-box{
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.todo-input{
+  font-size: 1rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid #9FA6B2;
+  border-radius: 0.25rem;
+}
+
+.btn{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.add-btn{
+  background-color: green;
+  padding: 0.4rem 1rem;
+}
+
+.done-btn{
+  background-color: green;
+  padding: 0.4rem 0.8rem;
+}
+
+.clear-btn{
+  background-color: crimson;
+  padding: 0.4rem;
+}
+
+.todo-container{
+  padding: 1.25rem;
+  /* border: 1px solid black; */
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.todo-box{
+  display: grid;
+  grid-template-columns: auto auto ;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+.edit-btn{
+  background-color: #3B71CA;
+  padding: 0.3rem 0.4rem;
+  margin: 0 0.5rem;
+}
+
+.delete-btn{
+  background-color: crimson;
+  padding: 0.3rem 0.4rem;
+}
